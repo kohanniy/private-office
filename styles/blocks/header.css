@@ -1,0 +1,5 @@
+.header {
+  min-height: 64px;
+  background: var(--white);
+  box-shadow: 0px 5px 10px rgba(186, 192, 209, 0.2);
+}

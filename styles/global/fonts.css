@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('../../vendor/fonts/Lato/Lato-Heavy.eot');
+  src: url('../../vendor/fonts/Lato/Lato-Heavy.woff2') format('woff2'),
+       url('../../vendor/fonts/Lato/Lato-Heavy.woff') format('woff'),
+       url('../../vendor/fonts/Lato/Lato-Heavy.ttf') format('opentype'),
+       url('../../vendor/fonts/Lato/Lato-Heavy.eot?#iefix') format('embedded-opentype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../../vendor/fonts/Lato/Lato-Semibold.eot');
+  src: url('../../vendor/fonts/Lato/Lato-Semibold.woff2') format('woff2'),
+       url('../../vendor/fonts/Lato/Lato-Semibold.woff') format('woff'),
+       url('../../vendor/fonts/Lato/Lato-Semibold.ttf') format('opentype'),
+       url('../../vendor/fonts/Lato/Lato-Semibold.eot?#iefix') format('embedded-opentype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../../vendor/fonts/Lato/Lato-Regular.eot');
+  src: url('../../vendor/fonts/Lato/Lato-Regular.woff2') format('woff2'),
+       url('../../vendor/fonts/Lato/Lato-Regular.woff') format('woff'),
+       url('../../vendor/fonts/Lato/Lato-Regular.ttf') format('opentype'),
+       url('../../vendor/fonts/Lato/Lato-Regular.eot?#iefix') format('embedded-opentype');
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('../../vendor/fonts/Lato/subset-Lato-Light.eot');
+  src: url('../../vendor/fonts/Lato/subset-Lato-Light.woff2') format('woff2'),
+       url('../../vendor/fonts/Lato/subset-Lato-Light.woff') format('woff'),
+       url('../../vendor/fonts/Lato/subset-Lato-Light.ttf') format('opentype'),
+       url('../../vendor/fonts/Lato/subset-Lato-Light.eot?#iefix') format('embedded-opentype');
+}
+
+@font-face {
+  font-family: 'ALS Rubl';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url('../../vendor/fonts/rouble/rouble.eot');
+  src: url('../../vendor/fonts/rouble/rouble.woff2') format('woff2'),
+  url('../../vendor/fonts/rouble/rouble.woff'),
+  url('../../vendor/fonts/rouble/rouble.eot?#iefix') format('embedded-opentype');
+}

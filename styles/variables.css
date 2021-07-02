@@ -1,0 +1,44 @@
+:root {
+  --hd: 1920px;
+  --wide: 1200px;
+  --tablet: 768px;
+  --mobile: 425px;
+
+  --transition: 0.5s ease;
+
+  --white: #fff;
+  --black: #000;
+  --light-gray: #e5e5e5;
+  --dark-blue: #5068a5;
+  --pink: #ff00aa;
+  --dark-pink: #ea5dbb;
+  --gray: #f8f8f8;
+  --dark-gray: #666;
+  --line-color: #eff1f6;
+  --outline: #d8dce9;
+
+  --linear-gradient-pink: linear-gradient(88.34deg, #dd50da 0%, #ff94fd 100%);
+  --linear-gradient-red: linear-gradient(88.34deg, #eb5757 0%, #ff8d8d 100%);
+  --linear-gradient-blue: linear-gradient(88.34deg, #6065a7 0%, #8b91dd 100%);
+ 
+
+  --table-text-color: #333;
+  --table-line-color: #ebebeb;
+
+  --page-bg: var(--light-gray);
+  --table-bg: var(--gray);
+  --active-btn-bg: var(--dark-blue);
+  --user-control-btn-bg: #f4f5f8;
+
+  --active-tab-font-color: var(--pink);
+  --accept-font-color: var(--dark-pink);
+  --table-head-font-color: var(--dark-gray);
+  --bnt-table-font-color: var(--dark-blue);
+  --active-btn-font-color: var(--white);
+  --table-title-font-color: var(--white);
+
+  --btn-border: 1px solid var(--dark-blue);
+
+  --main-font-family: 'Lato', Arial, sans-serif;
+  --rouble-font-family: 'ALS Rubl';
+}
