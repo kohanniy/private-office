@@ -1,0 +1,56 @@
+.market-selection__btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 12px 52px;
+  border: 1px solid var(--outline);
+  border-radius: 8px;
+  color: inherit;
+  background: transparent;
+  transition: opacity var(--transition);
+}
+
+.market-selection__list {
+  min-width: 100%;
+}
+
+.market-selection__link {
+  padding: 12px 52px;
+  color: inherit;
+}
+
+.market-selection__logo {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+@media screen and (hover: hover) {
+  .market-selection__btn:hover {
+    opacity: 0.7;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .market-selection__btn {
+    padding: 10px 16px;
+  }
+
+  .market-selection__link {
+    padding: 10px 16px;
+  }
+
+  .market-selection__name {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .market-selection__btn {
+    padding: 8px;
+  }
+
+  .market-selection__link {
+    padding: 8px;
+  }
+}

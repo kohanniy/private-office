@@ -1,0 +1,41 @@
+.logo {
+  display: flex;
+  align-items: center;
+  color: var(--text-color);
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.19;
+  transition: opacity var(--transition);
+}
+
+.logo__pic {
+  width: 32px;
+  height: 32px;
+  margin-right: 8px;
+}
+
+.logo__text {
+  display: flex;
+}
+
+.logo__accent {
+  color: var(--pink);
+}
+
+@media screen and (hover: hover) {
+  .logo:hover {
+    text-decoration: none;
+    color: var(--text-color);
+    opacity: 0.7;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo__pic {
+    margin-right: 0;
+  }
+
+  .logo__text {
+    display: none;
+  }
+}

@@ -1,9 +1,15 @@
 @import url('./variables.css');
-@import url('../vendor/normalize.css');
 @import url('./global/fonts.css');
 @import url('./global/reboot.css');
 @import url('./global/utils.css');
 @import url('./blocks/page.css');
+@import url('./blocks/logo.css');
+@import url('./blocks/notifications.css');
+@import url('./blocks/selection-list.css');
+@import url('./blocks/toggle-menu.css');
 @import url('./blocks/header.css');
+@import url('./blocks/market-selection.css');
+@import url('./blocks/balance.css');
+@import url('./blocks/user-control.css');
 
 

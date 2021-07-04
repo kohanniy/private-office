@@ -1,0 +1,60 @@
+.toggle-menu {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background: transparent;
+  padding: 0;
+  border: none;
+  position: relative;
+  outline: 1px solid red;
+}
+
+.toggle-menu__line {
+  position: absolute;
+  left: 0;
+  transform-origin: center;
+  display: block;
+  height: 2px;
+  background: var(--text-color);
+  transition: opacity var(--short-transition) 0.25s,
+              width var(--short-transition) 0.25s,
+              top var(--short-transition) 0.25s,
+              transform var(--short-transition);
+}
+
+.toggle-menu__line_pos_top {
+  width: 24px;
+  top: 4px;
+}
+
+.toggle-menu__line_pos_center {
+  width: 16px;
+  top: 11px;
+}
+
+.toggle-menu__line_pos_bottom {
+  width: 20px;
+  top: 18px;
+}
+
+.open .toggle-menu__line_pos_top {
+  top: 11px;
+  transform: rotate(45deg);
+  transition: top var(--short-transition),
+              transform var(--short-transition) 0.25s;
+}
+
+.open .toggle-menu__line_pos_center {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.open .toggle-menu__line_pos_bottom {
+  width: 24px;
+  transform: rotate(-45deg);
+  top: 11px;
+  transition: top var(--short-transition),
+              transform var(--short-transition) 0.25s;
+}

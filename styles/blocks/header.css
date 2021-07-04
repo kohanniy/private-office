@@ -1,5 +1,130 @@
+.wrapper {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+@media screen and (max-width: 1200px) {
+  .wrapper {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
+
 .header {
-  min-height: 64px;
-  background: var(--white);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  min-height: 80px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.43;
+  color: var(--text-color);
   box-shadow: 0px 5px 10px rgba(186, 192, 209, 0.2);
+  background: var(--white);
+  position: relative;
+}
+
+.header__logo {
+  display: none;
+}
+
+.header__market-selection {
+  margin-right: auto;
+  width: 250px;
+}
+
+.header__balance:not(:last-child) {
+  margin-right: 40px;
+}
+
+.header__notifications {
+  width: 44px;
+  height: 44px;
+}
+
+.header__notifications:not(:last-child) {
+  margin-right: 40px;
+}
+
+.header__user-control:not(:last-child) {
+  margin-right: 40px;
+}
+
+.header__toggle-menu {
+  display: none;
+}
+
+.header__user-nav {
+  outline: 1px solid red;
+  width: 100%;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  overflow: hidden;
+  display: none;
+  background: #fff;
+}
+
+@media screen and (max-width: 1200px) {
+  .header {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    min-height: 64px;
+    justify-content: space-between;
+  }
+
+  .header__logo {
+    display: flex;
+  }
+
+  .header__market-selection {
+    margin-right: 0;
+    width: auto;
+  }
+
+  .header__balance {
+    margin-right: 0;
+  }
+
+  .header__notifications {
+    display: none;
+  }
+
+  .header__user-control {
+    display: none;
+  }
+
+  .header__toggle-menu {
+    display: flex;
+  }
+
+  .menu-open .header__user-nav {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    font-size: 12px;
+    line-height: 1.33;
+  }
+}
+
+.private-office {
+  outline: 1px solid red;
+  padding-top: 27px;
+  padding-bottom: 24px;
+}
+
+.private-office__title {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 1.2;
+  color: var(--title-color);
+}
+
+.private-office__nav-list {
+  outline: 1px solid green;
 }

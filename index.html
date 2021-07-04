@@ -10,24 +10,116 @@
 </head>
 <body class="page">
   <div class="page__container">
-    <header class="page__header header container-fluid">
-      <img class="header__logo" src="./img/icon/logo.svg" alt="логотип">
-      <div class="header__id id">
-        <img class="id__logo-markets" src="./img/icon/logo_markets.svg" alt="логотип магазина">
-        <p class="id__text">(№ 21291)</p>
+    <header class="wrapper page__header header">
+      <a href="#" class="header__logo logo">
+        <img src="./img/icon/logo-mobile.svg" class="logo__pic" alt="логотип">
+        <p class="logo__text">
+          stat
+          <span class="logo__accent">4</span>
+          market
+        </p>
+      </a>
+      <div class="dropdown market-selection header__market-selection" >
+        <button class="market-selection__btn" type="button" id="market-selection" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static">
+          <img class="market-selection__logo" src="./img/icon/logo-ozon.svg" alt="логотип магазина">
+          <span class="market-selection__name">Ozon</span>&nbsp;
+          (№ 21291)
+        </button>
+        <ul class="dropdown-menu market-selection__list selection-list" aria-labelledby="market-selection">
+          <li class="market-selection__item active selection-list__item">
+            <a href="#" class="market-selection__link selection-list__link">
+              <img class="market-selection__logo" src="./img/icon/logo-ozon.svg" alt="логотип магазина">
+              <span class="market-selection__name">Ozon</span> (№ 21291)
+            </a>
+          </li>
+          <li class="market-selection__item selection-list__item">
+            <a href="#" class="market-selection__link selection-list__link">
+              <img class="market-selection__logo" src="./img/icon/plus.svg" alt="логотип магазина">
+              Добавить
+            </a>
+          </li>
+        </ul>
       </div>
-      <p class="invoice-amount header__invoice-amount">
-        9 932.00 <span class="invoice-amount__currency">р</span>
-      </p>
-      <button class="header__menu-toggle menu-toggle">
-        <span class="toggle-menu__line toggle-menu__line_place_top"></span>
-        <span class="toggle-menu__line toggle-menu__line_place_center"></span>
-        <span class="toggle-menu__line toggle-menu__line_place_botom"></span>
+      <div class="header__balance balance">
+        <svg class="balance__icon" xmlns="http://www.w3.org/2000/svg">
+          <path d="M13.99 2.343A7.948 7.948 0 008.333 0a7.948 7.948 0 00-5.657 2.343A7.948 7.948 0 00.333 8c0 2.137.832 4.146 2.343 5.657A7.948 7.948 0 008.333 16a7.947 7.947 0 005.657-2.343A7.948 7.948 0 0016.333 8a7.948 7.948 0 00-2.343-5.657zm-5.657 12.72A7.07 7.07 0 011.271 8 7.07 7.07 0 018.333.937 7.07 7.07 0 0115.396 8a7.07 7.07 0 01-7.063 7.063z"/>
+          <path d="M8.836 7.531H7.83a1.039 1.039 0 010-2.075H9.84a.469.469 0 000-.937H8.802V3.48a.469.469 0 00-.937 0V4.52H7.83a1.977 1.977 0 00-1.975 1.975c0 1.089.886 1.975 1.975 1.975h1.005a1.039 1.039 0 010 2.075H6.827a.469.469 0 000 .937h1.038v1.038a.469.469 0 10.937 0V11.48h.034a1.977 1.977 0 001.975-1.975 1.977 1.977 0 00-1.975-1.975z"/>
+        </svg>
+        <a href="#" class="balance__total">
+          9 932.00 <span class="balance__currency">₽</span>
+        </a>
+        <p class="balance__term">(Хватит ~ 345 дней)</p>
+        <a href="#" class="balance__link">Пополнить</a>
+      </div>
+      <a href="#" class="header__notifications notifications">
+        <div class="notifications__icon"></div>
+        <span class="sr-only">Уведомления</span>
+        <p class="notifications__count">11</p>
+      </a>
+      <div class="dropdown header__user-control user-control">
+        <button class="user-control__button" type="button" id="user-control" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static">
+          <div class="user-control__icon"></div>
+          <p class="user-control__name">Александр</p>
+        </button>
+        <ul class="dropdown-menu dropdown-menu-lg-right user-control__list selection-list" aria-labelledby="user-control">
+          <li class="selection-list__item">
+            <a class="selection-list__link user-control__link" href="#">Меню 1</a>
+          </li>
+          <li class="selection-list__item">
+            <a class="selection-list__link user-control__link" href="#">Меню 2</a>
+          </li>
+          <li class="selection-list__item">
+            <a class="selection-list__link user-control__link" href="#">Меню 3</a>
+          </li>
+        </ul>
+      </div>
+      <button class="toggle-menu header__toggle-menu">
+        <span class="toggle-menu__line toggle-menu__line_pos_top"></span>
+        <span class="toggle-menu__line toggle-menu__line_pos_center"></span>
+        <span class="toggle-menu__line toggle-menu__line_pos_bottom"></span>
       </button>
+      <nav class="header__user-nav user-nav">
+        <ul class="user-nav__list">
+          <li class="user-nav__item">
+            <a href="" class="user-nav__link">Кнопка меню 1</a>
+          </li>
+          <li class="user-nav__item">
+            <a href="" class="user-nav__link">Кнопка меню 2</a>
+          </li>
+          <li class="user-nav__item">
+            <a href="" class="user-nav__link">Кнопка меню 3</a>
+          </li>
+          <li class="user-nav__item">
+            <a href="" class="user-nav__link">Кнопка меню 4</a>
+          </li>
+        </ul>
+      </nav>
     </header>
+    <main class="page__content">
+      <section class="wrapper private-office">
+        <h1 class="private-office__title">Личный кабинет</h1>
+        <ul class="nav private-office__nav-list">
+          <li class="nav-item private-office__nav-item">
+            <a class="nav-link private-office__nav-link" href="#">Настройки</a>
+          </li>
+          <li class="nav-item private-office__nav-item">
+            <a class="nav-link private-office__nav-link" href="#">Оплата</a>
+          </li>
+          <li class="nav-item private-office__nav-item">
+            <a class="nav-link private-office__nav-link" href="#">Уведомления</a>
+          </li>
+          <li class="nav-item private-office__nav-item">
+            <a class="nav-link private-office__nav-link" href="#">Партнёрская программа</a>
+          </li>
+          <li class="nav-item private-office__nav-item">
+            <a class="nav-link private-office__nav-link" href="#">Обучение</a>
+          </li>
+        </ul>
+      </section>
+    </main>
   </div>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+  <script src="./js/index.js"></script>
 </body>
 </html>

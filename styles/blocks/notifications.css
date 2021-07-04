@@ -1,0 +1,37 @@
+.notifications {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: var(--user-control-btn-bg);
+  border-radius: 50%;
+  transition: opacity var(--transition);
+}
+
+.notifications__icon {
+  width: 14px;
+  height: 16px;
+  background: url(../../img/icon/bell.svg) center/100% no-repeat;
+}
+
+.notifications__count {
+  width: 16px;
+  height: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--dark-pink);
+  color: var(--white);
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 8px;
+  line-height: 1;
+  border-radius: 50%;
+}
+
+@media screen and (hover: hover) {
+  .notifications:hover {
+    opacity: 0.7;
+  }
+}

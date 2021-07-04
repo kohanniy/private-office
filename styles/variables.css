@@ -5,6 +5,7 @@
   --mobile: 425px;
 
   --transition: 0.5s ease;
+  --short-transition: 0.25s ease;
 
   --white: #fff;
   --black: #000;
@@ -22,7 +23,8 @@
   --linear-gradient-blue: linear-gradient(88.34deg, #6065a7 0%, #8b91dd 100%);
  
 
-  --table-text-color: #333;
+  --text-color: #333;
+  --title-color: var(--black);
   --table-line-color: #ebebeb;
 
   --page-bg: var(--light-gray);
