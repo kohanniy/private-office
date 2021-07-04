@@ -3,6 +3,8 @@
 @import url('./global/reboot.css');
 @import url('./global/utils.css');
 @import url('./blocks/page.css');
+@import url('./blocks/wrapper.css');
+@import url('./blocks/dropdown-btn.css');
 @import url('./blocks/logo.css');
 @import url('./blocks/notifications.css');
 @import url('./blocks/selection-list.css');
@@ -11,5 +13,6 @@
 @import url('./blocks/market-selection.css');
 @import url('./blocks/balance.css');
 @import url('./blocks/user-control.css');
+@import url('./blocks/cabinet.css');
 
 

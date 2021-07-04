@@ -1,0 +1,16 @@
+.dropdown-btn {
+  background: transparent;
+  white-space: nowrap;
+  border: none;
+  outline: none;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-btn::after {
+  display: block;
+  width: 12px;
+  height: 12px;
+  background: url(../../img/icon/down-arrow.svg) center/100% no-repeat;
+  content: '';
+}

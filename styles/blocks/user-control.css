@@ -1,21 +1,6 @@
 .user-control__button {
-  display: flex;
-  align-items: center;
   transition: opacity var(--transition);
   padding: 0;
-  background: transparent;
-  white-space: nowrap;
-  border: none;
-  outline: none;
-}
-
-.user-control__button::after {
-  display: block;
-  width: 12px;
-  height: 12px;
-  background: url(../../img/icon/down-arrow.svg) center/100% no-repeat;
-  margin-left: 4px;
-  content: '';
 }
 
 .user-control__icon {
@@ -24,6 +9,10 @@
   background: var(--user-control-btn-bg) url(../../img/icon/user.svg) center/14px 14px no-repeat;
   margin-right: 16px;
   border-radius: 50%;
+}
+
+.user-control__name {
+  margin-right: 4px;
 }
 
 .user-control__link {

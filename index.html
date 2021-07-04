@@ -57,7 +57,7 @@
         <p class="notifications__count">11</p>
       </a>
       <div class="dropdown header__user-control user-control">
-        <button class="user-control__button" type="button" id="user-control" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static">
+        <button class="dropdown-btn user-control__button" type="button" id="user-control" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static">
           <div class="user-control__icon"></div>
           <p class="user-control__name">Александр</p>
         </button>
@@ -96,27 +96,33 @@
       </nav>
     </header>
     <main class="page__content">
-      <section class="wrapper private-office">
-        <h1 class="private-office__title">Личный кабинет</h1>
-        <ul class="nav private-office__nav-list">
-          <li class="nav-item private-office__nav-item">
-            <a class="nav-link private-office__nav-link" href="#">Настройки</a>
-          </li>
-          <li class="nav-item private-office__nav-item">
-            <a class="nav-link private-office__nav-link" href="#">Оплата</a>
-          </li>
-          <li class="nav-item private-office__nav-item">
-            <a class="nav-link private-office__nav-link" href="#">Уведомления</a>
-          </li>
-          <li class="nav-item private-office__nav-item">
-            <a class="nav-link private-office__nav-link" href="#">Партнёрская программа</a>
-          </li>
-          <li class="nav-item private-office__nav-item">
-            <a class="nav-link private-office__nav-link" href="#">Обучение</a>
-          </li>
-        </ul>
+      <section class="wrapper cabinet">
+        <h1 class="page__title cabinet__title">Личный кабинет</h1>
+        <div class="dropdown cabinet-nav">
+          <button class="dropdown-btn cabinet-nav__dropdown-btn" type="button" id="cabinet-nav" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static">
+            Оплата
+          </button>
+          <ul class="cabinet-nav__list" aria-labelledby="cabinet-nav">
+            <li class="cabinet-nav__item">
+              <a class="cabinet-nav__link" href="#">Настройки</a>
+            </li>
+            <li class="cabinet-nav__item">
+              <a class="cabinet-nav__link active" href="#">Оплата</a>
+            </li>
+            <li class="cabinet-nav__item">
+              <a class="cabinet-nav__link" href="#">Уведомления</a>
+            </li>
+            <li class="cabinet-nav__item">
+              <a class="cabinet-nav__link" href="#">Партнёрская программа</a>
+            </li>
+            <li class="cabinet-nav__item">
+              <a class="cabinet-nav__link" href="#">Обучение</a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
+    <footer style="height: 1000px"></footer>
   </div>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
