@@ -4,6 +4,7 @@
 }
 
 .user-control__icon {
+  display: block;
   width: 44px;
   height: 44px;
   background: var(--user-control-btn-bg) url(../../img/icon/user.svg) center/14px 14px no-repeat;
@@ -12,6 +13,7 @@
 }
 
 .user-control__name {
+  display: block;
   margin-right: 4px;
 }
 

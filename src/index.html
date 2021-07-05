@@ -4,15 +4,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-  <link rel="stylesheet" href="./styles/index.css">
   <title>Private Office</title>
 </head>
 <body class="page">
   <div class="page__container">
     <header class="wrapper page__header header">
       <a href="#" class="header__logo logo">
-        <img src="./img/icon/logo-mobile.svg" class="logo__pic" alt="логотип">
+        <img src="<%=require('./img/icon/logo-mobile.svg')%>" class="logo__pic" alt="логотип">
         <p class="logo__text">
           stat
           <span class="logo__accent">4</span>
@@ -21,20 +19,20 @@
       </a>
       <div class="dropdown market-selection header__market-selection" >
         <button class="market-selection__btn" type="button" id="market-selection" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static">
-          <img class="market-selection__logo" src="./img/icon/logo-ozon.svg" alt="логотип магазина">
+          <img class="market-selection__logo" src="<%=require('./img/icon/logo-ozon.svg')%>" alt="логотип магазина">
           <span class="market-selection__name">Ozon</span>&nbsp;
           (№ 21291)
         </button>
         <ul class="dropdown-menu market-selection__list selection-list" aria-labelledby="market-selection">
           <li class="market-selection__item active selection-list__item">
             <a href="#" class="market-selection__link selection-list__link">
-              <img class="market-selection__logo" src="./img/icon/logo-ozon.svg" alt="логотип магазина">
+              <img class="market-selection__logo" src="<%=require('./img/icon/logo-ozon.svg')%>" alt="логотип магазина">
               <span class="market-selection__name">Ozon</span> (№ 21291)
             </a>
           </li>
           <li class="market-selection__item selection-list__item">
             <a href="#" class="market-selection__link selection-list__link">
-              <img class="market-selection__logo" src="./img/icon/plus.svg" alt="логотип магазина">
+              <img class="market-selection__logo" src="<%=require('./img/icon/plus.svg')%>" alt="логотип магазина">
               Добавить
             </a>
           </li>
@@ -58,8 +56,8 @@
       </a>
       <div class="dropdown header__user-control user-control">
         <button class="dropdown-btn user-control__button" type="button" id="user-control" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-display="static">
-          <div class="user-control__icon"></div>
-          <p class="user-control__name">Александр</p>
+          <span class="user-control__icon"></span>
+          <span class="user-control__name">Александр</span>
         </button>
         <ul class="dropdown-menu dropdown-menu-lg-right user-control__list selection-list" aria-labelledby="user-control">
           <li class="selection-list__item">
@@ -310,7 +308,7 @@
         <ul class="more-services__list">
           <li class="more-services__item">
             <figure class="more-services__figure">
-              <img src="./img/more-services1.jpg" class="more-services__img" alt="cover">
+              <img src="<%=require('./img/more-services1.jpg')%>" class="more-services__img" alt="cover">
             </figure>
             <div class="more-services__body">
               <div class="more-services__content">
@@ -341,7 +339,7 @@
           </li>
           <li class="more-services__item">
             <figure class="more-services__figure">
-              <img src="./img/more-services2.jpg" class="more-services__img" alt="cover">
+              <img src="<%=require('./img/more-services2.jpg')%>" class="more-services__img" alt="cover">
             </figure>
             <div class="more-services__body">
               <div class="more-services__content">
@@ -373,8 +371,6 @@
       </section>
     </main>
   </div>
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
-  <script type="module" src="./js/index.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
 </body>
 </html>
