@@ -1,0 +1,167 @@
+.more-services {
+  padding-top: 48px;
+  padding-bottom: 86px;
+}
+
+.more-services__title {
+  margin-bottom: 16px;
+}
+
+.more-services__subtitle {
+  margin-bottom: 24px;
+}
+
+.more-services__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.more-services__item {
+  background: var(--white);
+  box-shadow: 0px 10px 50px rgba(24, 34, 70, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  min-height: 320px;
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.more-services__item:last-of-type {
+  margin-bottom: 0;
+}
+
+.more-services__figure {
+  width: 305px;
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.more-services__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.more-services__body {
+  padding: 30px;
+  display: flex;
+}
+
+.more-services__content {
+  display: flex;
+  flex-direction: column;
+  margin-right: 30px;
+}
+
+.more-services__name {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.4;
+  color: var(--title-color);
+  margin-bottom: 16px;
+}
+
+.more-services__desc {
+  color: var(--dark-gray);
+  margin-bottom: 16px;
+}
+
+.more-services__desc:last-of-type {
+  margin-bottom: 0;
+}
+
+.more-services__profit {
+  display: flex;
+  padding: 16px 20px;
+  background: var(--gray);
+  border-radius: 4px;
+  margin-top: auto;
+}
+
+.more-services__profit-icon {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url(../../img/icon/check.svg) center/100% no-repeat;
+  margin-right: 12px;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 1200px) {
+  .more-services {
+    font-size: 12px;
+    line-height: 1.33;
+  }
+
+  .more-services__body {
+    padding: 16px 16px 24px;
+    flex-direction: column;
+  }
+
+  .more-services__content {
+    margin-right: 0;
+    margin-bottom: 24px;
+  }
+
+  .more-services__profit {
+    margin-top: 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .more-services {
+    padding-top: 16px;
+    padding-bottom: 45px;
+  }
+
+  .more-services__title {
+    margin-bottom: 8px;
+  }
+
+  .more-services__subtitle {
+    margin-bottom: 16px;
+  }
+
+  .more-services__item {
+    flex-direction: column;
+    margin-bottom: 16px;
+  }
+
+  .more-services__figure {
+    width: 100%;
+    height: 320px;
+  }
+
+  .more-services__body {
+    padding-bottom: 16px;
+  }
+
+  .more-services__content {
+    margin-bottom: 16px;
+  }
+
+  .more-services__name {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 4px;
+  }
+
+  .more-services__desc {
+    margin-bottom: 8px;
+  }
+
+  .more-services__profit {
+    padding: 8px;
+  }
+
+  .more-services__profit-icon {
+    margin-right: 8px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .more-services__figure {
+    height: 190px;
+  }
+}

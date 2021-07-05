@@ -1,0 +1,118 @@
+.price-group {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+}
+
+.price-group__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 22px 0;
+  margin-bottom: 24px;
+}
+
+.price-group__wrapper:last-of-type {
+  margin-bottom: 0;
+}
+
+.price-group__cost {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.25;
+  color: var(--title-color);
+  margin-bottom: 8px;
+}
+
+.price-group__cost_old {
+  color: var(--dark-blue);
+  text-decoration: line-through;
+}
+
+.price-group__btn {
+  width: 210px;
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 10px 0;
+  transition: all var(--transition);
+}
+
+.price-group__btn_type_order {
+  background: var(--dark-blue);
+  color: var(--white);
+  margin-bottom: 16px;
+}
+
+.price-group__btn_type_details {
+  color: var(--dark-blue);
+  border: 1px solid var(--dark-blue);
+}
+
+@media screen and (hover: hover) {
+  .price-group__btn:hover {
+    text-decoration: none;
+  }
+
+  .price-group__btn_type_order:hover {
+    background: var(--pink);
+    color: var(--white);
+  }
+
+  .price-group__btn_type_details:hover {
+    color: var(--white);
+    background: var(--dark-blue);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .price-group__wrapper {
+    padding: 0;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .price-group__cost {
+    margin-bottom: 0;
+    margin-right: 24px;
+  }
+
+  .price-group__btn {
+    font-size: 14px;
+    line-height: 1.43;
+    width: 160px;
+  }
+
+  .price-group__btn_type_order {
+    margin-bottom: 0;
+    margin-right: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .price-group {
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .price-group__wrapper {
+    flex-direction: column;
+    margin-bottom: 8px;
+    justify-content: flex-end;
+  }
+
+  .price-group__cost {
+    margin-right: 0;
+  }
+
+  .price-group__btn {
+    font-size: 12px;
+    line-height: 1.33;
+    width: 100%;
+  }
+
+  .price-group__btn_type_order {
+    margin-right: 0;
+    margin-bottom: 8px;
+  }
+}

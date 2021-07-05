@@ -1,7 +1,6 @@
 @import url('./variables.css');
 @import url('./global/fonts.css');
 @import url('./global/reboot.css');
-@import url('./global/utils.css');
 @import url('./blocks/page.css');
 @import url('./blocks/currency.css');
 @import url('./blocks/wrapper.css');
@@ -18,5 +17,7 @@
 @import url('./blocks/payment.css');
 @import url('./blocks/tariff-card.css');
 @import url('./blocks/tariff-table.css');
+@import url('./blocks/more-services.css');
+@import url('./blocks/price-group.css');
 
 
