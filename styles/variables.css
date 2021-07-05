@@ -1,9 +1,4 @@
 :root {
-  --hd: 1920px;
-  --wide: 1200px;
-  --tablet: 768px;
-  --mobile: 425px;
-
   --transition: 0.5s ease;
   --short-transition: 0.25s ease;
 
@@ -21,7 +16,6 @@
   --linear-gradient-pink: linear-gradient(88.34deg, #dd50da 0%, #ff94fd 100%);
   --linear-gradient-red: linear-gradient(88.34deg, #eb5757 0%, #ff8d8d 100%);
   --linear-gradient-blue: linear-gradient(88.34deg, #6065a7 0%, #8b91dd 100%);
- 
 
   --text-color: #333;
   --title-color: var(--black);
@@ -33,7 +27,7 @@
   --user-control-btn-bg: #f4f5f8;
 
   --active-tab-font-color: var(--pink);
-  --accept-font-color: var(--dark-pink);
+  --accent-font-color: var(--dark-pink);
   --table-head-font-color: var(--dark-gray);
   --bnt-table-font-color: var(--dark-blue);
   --active-btn-font-color: var(--white);

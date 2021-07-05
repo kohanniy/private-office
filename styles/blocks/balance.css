@@ -20,10 +20,6 @@
   margin-right: 8px;
 }
 
-.balance__currency {
-  font-family: var(--rouble-font-family);
-}
-
 .balance__term {
   font-size: 12px;
   line-height: 1.5;

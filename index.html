@@ -46,7 +46,7 @@
           <path d="M8.836 7.531H7.83a1.039 1.039 0 010-2.075H9.84a.469.469 0 000-.937H8.802V3.48a.469.469 0 00-.937 0V4.52H7.83a1.977 1.977 0 00-1.975 1.975c0 1.089.886 1.975 1.975 1.975h1.005a1.039 1.039 0 010 2.075H6.827a.469.469 0 000 .937h1.038v1.038a.469.469 0 10.937 0V11.48h.034a1.977 1.977 0 001.975-1.975 1.977 1.977 0 00-1.975-1.975z"/>
         </svg>
         <a href="#" class="balance__total">
-          9 932.00 <span class="balance__currency">₽</span>
+          9 932.00 <span class="currency">₽</span>
         </a>
         <p class="balance__term">(Хватит ~ 345 дней)</p>
         <a href="#" class="balance__link">Пополнить</a>
@@ -117,6 +117,187 @@
             </li>
             <li class="cabinet-nav__item">
               <a class="cabinet-nav__link" href="#">Обучение</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="wrapper payment">
+        <div class="payment__container">
+          <h2 class="page__subtitle payment__title">Оплата</h2>
+          <ul class="payment__nav">
+            <li class="payment__nav-item">
+              <a class="payment__nav-link" href="#">Поплнение баланса</a>
+            </li>
+            <li class="payment__nav-item">
+              <a class="payment__nav-link" href="#">Детализация расходов</a>
+            </li>
+            <li class="payment__nav-item">
+              <a class="payment__nav-link active" href="#">Тарифы, доп. услуги</a>
+            </li>
+            <li class="payment__nav-item">
+              <a class="payment__nav-link" href="#">История платежей</a>
+            </li>
+          </ul>
+          <ul class="payment__tariff-cards">
+            <li class="payment__tariff-card tariff-card">
+              <h3 class="tariff-card__title tariff-card__title_section_analytics">Wildberries — Аналитика</h3>
+              <div class="tariff-card__body">
+                <p class="tariff-card__text">
+                  Анализ заказов, продаж, остатков, товарная аналитика по каждому складу маркетплейса
+                </p>
+                <table class="tariff-card__table tariff-table">
+                  <thead>
+                    <tr class="tariff-table__row">
+                      <th class="tariff-table__head" scope="col">Количество товаров</th>
+                      <th class="tariff-table__head" scope="col">Месяц</th>
+                      <th class="tariff-table__head" scope="col">День</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="tariff-table__row">
+                      <td class="tariff-table__cell">до 50</td>
+                      <td class="tariff-table__cell">2 370<span class="currency">₽</span></td>
+                      <td class="tariff-table__cell">79<span class="currency">₽</span></td>
+                    </tr>
+                    <tr class="tariff-table__row">
+                      <td class="tariff-table__cell">от 51 до 100</td>
+                      <td class="tariff-table__cell">2 970<span class="currency">₽</span></td>
+                      <td class="tariff-table__cell">99<span class="currency">₽</span></td>
+                    </tr>
+                    <tr class="tariff-table__row">
+                      <td class="tariff-table__cell">от 101 до 500</td>
+                      <td class="tariff-table__cell">4 470<span class="currency">₽</span></td>
+                      <td class="tariff-table__cell">149<span class="currency">₽</span></td>
+                    </tr>
+                    <tr class="tariff-table__row">
+                      <td class="tariff-table__cell">от 501 до 1000</td>
+                      <td class="tariff-table__cell">7 470<span class="currency">₽</span></td>
+                      <td class="tariff-table__cell">249<span class="currency">₽</span></td>
+                    </tr>
+                    <tr class="tariff-table__row">
+                      <td class="tariff-table__cell">от 1001 до 5000</td>
+                      <td class="tariff-table__cell">10 470<span class="currency">₽</span></td>
+                      <td class="tariff-table__cell">349<span class="currency">₽</span></td>
+                    </tr>
+                    <tr class="tariff-table__row">
+                      <td class="tariff-table__cell">Безлимитный от 5001</td>
+                      <td class="tariff-table__cell">14 970<span class="currency">₽</span></td>
+                      <td class="tariff-table__cell">499<span class="currency">₽</span></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </li>
+            <li class="payment__tariff-card tariff-card">
+              <h3 class="tariff-card__title tariff-card__title_section_categories">Wildberries — Анализ категорий</h3>
+              <div class="tariff-card__body">
+                <p class="tariff-card__text">
+                  Анализ любых категорий, страниц брендов, поисковых запросов, акций. Безлимитный доступ к данным по всем товарам со страницы, заказам, остатках на складах, скорости заказов и другим метрикам.
+                </p>
+                <p class="tariff-card__text tariff-card__text_accent">
+                  Добавление страницы в отслеживание — 99<span class="currency">₽</span>/страница
+                </p>
+                <p class="tariff-card__text">
+                  Списывается за уникальную страницу, если вдруг удалили страницу и добавили заново — повторно оплата не снимается
+                </p>
+                <p class="tariff-card__text tariff-card__text_heading">
+                  Ежедневный мониторинг и обновление страниц:
+                </p>
+                <table class="tariff-card__table tariff-table">
+                  <thead>
+                    <tr class="tariff-table__row">
+                      <th class="tariff-table__head" scope="col">Количество страниц</th>
+                      <th class="tariff-table__head" scope="col">Месяц</th>
+                      <th class="tariff-table__head" scope="col">День</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="tariff-table__row">
+                      <td class="tariff-table__cell">до 3</td>
+                      <td class="tariff-table__cell">0<span class="currency">₽</span></td>
+                      <td class="tariff-table__cell">0<span class="currency">₽</span></td>
+                    </tr>
+                    <tr class="tariff-table__row">
+                      <td class="tariff-table__cell">от 4 до 10</td>
+                      <td class="tariff-table__cell">0<span class="currency">₽</span></td>
+                      <td class="tariff-table__cell">0<span class="currency">₽</span></td>
+                    </tr>
+                    <tr class="tariff-table__row">
+                      <td class="tariff-table__cell">от 11 до 20</td>
+                      <td class="tariff-table__cell">0<span class="currency">₽</span></td>
+                      <td class="tariff-table__cell">0<span class="currency">₽</span></td>
+                    </tr>
+                    <tr class="tariff-table__row">
+                      <td class="tariff-table__cell">от 21 до 50</td>
+                      <td class="tariff-table__cell">0<span class="currency">₽</span></td>
+                      <td class="tariff-table__cell">0<span class="currency">₽</span></td>
+                    </tr>
+                    <tr class="tariff-table__row">
+                      <td class="tariff-table__cell">Безлимитный от 51</td>
+                      <td class="tariff-table__cell">0<span class="currency">₽</span></td>
+                      <td class="tariff-table__cell">0<span class="currency">₽</span></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </li>
+            <li class="payment__tariff-card tariff-card">
+              <h3 class="tariff-card__title tariff-card__title_section_positions">Wildberries — Позиции товаров</h3>
+              <div class="tariff-card__body">
+                <p class="tariff-card__text">
+                  Анализ позиций любых товаров на страницах категорий, бренда, поисковых запросов, акций.
+                </p>
+                <p class="tariff-card__text tariff-card__text_accent">
+                  Добавление нового товара — 29<span class="currency">₽</span>/товар
+                </p>
+                <p class="tariff-card__text">
+                  Списывается за уникальный товар, если вдруг удалили товар и добавили заново — повторно оплата не списывается.
+                </p>
+                <p class="tariff-card__text tariff-card__text_heading">
+                  Ежедневный мониторинг позиций:
+                </p>
+                <table class="tariff-card__table tariff-table">
+                  <thead>
+                    <tr class="tariff-table__row">
+                      <th class="tariff-table__head" scope="col">Количество товаров</th>
+                      <th class="tariff-table__head" scope="col">Месяц</th>
+                      <th class="tariff-table__head" scope="col">День</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="tariff-table__row">
+                      <td class="tariff-table__cell">до 20</td>
+                      <td class="tariff-table__cell">2 870<span class="currency">₽</span></td>
+                      <td class="tariff-table__cell">29<span class="currency">₽</span></td>
+                    </tr>
+                    <tr class="tariff-table__row">
+                      <td class="tariff-table__cell">от 21 до 100</td>
+                      <td class="tariff-table__cell">1 470<span class="currency">₽</span></td>
+                      <td class="tariff-table__cell">49<span class="currency">₽</span></td>
+                    </tr>
+                    <tr class="tariff-table__row">
+                      <td class="tariff-table__cell">от 101 до 500</td>
+                      <td class="tariff-table__cell">2 970<span class="currency">₽</span></td>
+                      <td class="tariff-table__cell">99<span class="currency">₽</span></td>
+                    </tr>
+                    <tr class="tariff-table__row">
+                      <td class="tariff-table__cell">от 501 до 1000</td>
+                      <td class="tariff-table__cell">4 470<span class="currency">₽</span></td>
+                      <td class="tariff-table__cell">149<span class="currency">₽</span></td>
+                    </tr>
+                    <tr class="tariff-table__row">
+                      <td class="tariff-table__cell">от 1001 до 5000</td>
+                      <td class="tariff-table__cell">7 470<span class="currency">₽</span></td>
+                      <td class="tariff-table__cell">249<span class="currency">₽</span></td>
+                    </tr>
+                    <tr class="tariff-table__row">
+                      <td class="tariff-table__cell">Безлимитный от 5001</td>
+                      <td class="tariff-table__cell">8 970<span class="currency">₽</span></td>
+                      <td class="tariff-table__cell">299<span class="currency">₽</span></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </li>
           </ul>
         </div>

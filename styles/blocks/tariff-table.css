@@ -1,0 +1,43 @@
+.tariff-table__row {
+  border-bottom: 1px solid var(--table-line-color);
+}
+
+.tariff-table__head {
+  padding: 16px 5px 16px 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33;
+  text-transform: uppercase;
+  color: var(--table-head-font-color);
+}
+
+.tariff-table__cell {
+  padding: 14px 5px 14px 0;
+  font-size: 14px;
+  line-height: 1.43;
+}
+
+.tariff-table__head:not(:first-of-type),
+.tariff-table__cell:not(:first-of-type) {
+  width: 25%;
+}
+
+@media screen and (max-width: 1200px) {
+  .tariff-table__cell {
+    padding: 16px 5px 16px 0;
+    font-size: 12px;
+    line-height: 1.33;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .tariff-table__head {
+    padding: 8px 5px 8px 0;
+    font-size: 10px;
+    line-height: 1.2;
+  }
+
+  .tariff-table__cell {
+    padding: 12px 5px 12px 0;
+  }
+}

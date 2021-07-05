@@ -3,6 +3,7 @@
 @import url('./global/reboot.css');
 @import url('./global/utils.css');
 @import url('./blocks/page.css');
+@import url('./blocks/currency.css');
 @import url('./blocks/wrapper.css');
 @import url('./blocks/dropdown-btn.css');
 @import url('./blocks/logo.css');
@@ -14,5 +15,8 @@
 @import url('./blocks/balance.css');
 @import url('./blocks/user-control.css');
 @import url('./blocks/cabinet.css');
+@import url('./blocks/payment.css');
+@import url('./blocks/tariff-card.css');
+@import url('./blocks/tariff-table.css');
 
 
